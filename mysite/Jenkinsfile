@@ -31,7 +31,7 @@ pipeline {
               curl -s -o /tmp/deploy_remote.sh https://raw.githubusercontent.com/mudd-98/django_test/${BRANCH}/mysite/scripts/deploy_remote.sh
               chmod +x /tmp/deploy_remote.sh
               /tmp/deploy_remote.sh
-            ENDSSH
+          ENDSSH
           """
         }
       }
